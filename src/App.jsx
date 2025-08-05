@@ -1,15 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import Titulo from './Titulo';
 
 function App() {
   
 
   return (
     <>
-      <h1 className='display-3'>Cauculadora Dólar</h1>
-      <img src="/public/money.gif" width='350' />
-      <br/>
-      <button className='btn btn-primary'>Click Aqui</button>
+      <div cLassName='container'>
+        <Titulo />
+      </div>
     </>
   )
 }
