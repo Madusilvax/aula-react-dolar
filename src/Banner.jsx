@@ -1,0 +1,31 @@
+import './Banner.css'
+
+function Banner() {
+    return (
+        <>
+            <div id="carouselExample" className="carousel slide">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img src="/public/dolar.jpg" className="d-block w-100" alt="dolar.jpg" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/public/cifrao.jpg" className="d-block w-100" alt="cifrao.jpg" />
+                    </div>
+                    <div className="carousel-item">
+                        <img src="/public/dinheiro.jpg" className="d-block w-100" alt="dinheiro.jpg" />
+                    </div>
+                </div>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                </button>
+            </div>
+        </>
+    )
+}
+
+export default Banner

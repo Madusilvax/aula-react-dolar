@@ -4,15 +4,17 @@ import './App.css'
 import Titulo from './Titulo'
 import Rodape from './Rodape'
 import Menu from './Menu'
+import Banner from './Banner'
 
 function App() {
 
 
   return (
     <>
-      <div cLassName='container'>
+      <div className='container'>
         <Titulo />
         <Menu />
+        <Banner />
       </div>
       <Rodape />
 

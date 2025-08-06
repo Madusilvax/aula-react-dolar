@@ -5,7 +5,7 @@ function Titulo() {
         <>
         <div className='text-center'>
         <h1 className='display-3'>Cauculadora Dólar</h1>
-        <img src="/public/money.gif" width='350' />
+        <img src="/public/money.gif" width='250' />
         </div>
         </>
     )
