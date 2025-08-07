@@ -15,8 +15,8 @@ function App() {
       <div className='container'>
         <Titulo />
         <Menu />
-        <CalcDollar />
         <Banner />
+        <CalcDollar />
       </div>
       <Rodape />
 
