@@ -1,4 +1,5 @@
 import './CalcDollar.css'
+import { FcMoneyTransfer } from "react-icons/fc";
 
 function CalcDollar () {
 
@@ -19,7 +20,7 @@ function CalcDollar () {
                 <label htmlFor="reais">Cotação do dolar</label>
                 <input type="text" className='form-control' id="cotaçao" /> 
             </div>
-            <button type="button" onclick={calcular} className="btn btn-primary w-100">Calcular</button>
+            <button type="button" onclick={calcular} className="btn btn-primary w-100"><FcMoneyTransfer size={20} color='white' />Calcular</button>
         </form>
         </>
     )
