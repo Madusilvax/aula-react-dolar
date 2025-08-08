@@ -8,7 +8,7 @@ function Banner() {
                     <div className="carousel-item active">
                         <img src="/public/dolar.jpg" className="d-block w-100" alt="dolar.jpg" />
                     </div>
-                    <div class="carousel-item">
+                    <div className="carousel-item">
                         <img src="/public/cifrao.jpg" className="d-block w-100" alt="cifrao.jpg" />
                     </div>
                     <div className="carousel-item">

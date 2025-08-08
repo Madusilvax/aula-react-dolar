@@ -6,6 +6,8 @@ import Rodape from './Rodape'
 import Menu from './Menu'
 import Banner from './Banner'
 import CalcDollar from './CalcDollar';
+import CalcCentimetros from './CalcCentimetros';
+import CalcMetros from './CalcMetros';
 
 function App() {
 
@@ -17,6 +19,9 @@ function App() {
         <Menu />
         <Banner />
         <CalcDollar />
+        <CalcCentimetros />
+        <CalcMetros />
+
       </div>
       <Rodape />
 
