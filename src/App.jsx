@@ -3,10 +3,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './App.css'
-import Layout from "./pages/Layout.jsx";
-import Home from "./pages/Home";
-import Sobre from "./pages/Sobre";
-import NoPage from "./pages/NoPage";
+import Layout from "./pages/Layout.jsx"
+import Home from "./pages/Home"
+import Sobre from "./pages/Sobre"
+import NoPage from "./pages/NoPage"
+import CalcMetros from "./pages/CalcMetros.jsx"
+import CalCentimetros from './CalcCentimetros.jsx'
+
+
 
 
 function App() {
@@ -17,6 +21,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="Sobre" element={<Sobre />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="CalcMetros" element={<CalcMetros />} />
+          <Route path="CalcCentimetros" element={<CalCentimetros />} />
         </Route>
 
 

@@ -1,4 +1,3 @@
-import './CalcCentimetros.css'
 import { FcRuler } from "react-icons/fc";
 function CalCentimetros(){
 

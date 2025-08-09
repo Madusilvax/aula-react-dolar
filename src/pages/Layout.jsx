@@ -4,6 +4,7 @@ import Rodape from '../Rodape';
 import Menu from '../Menu';
 import Banner from '../Banner';
 
+
 function layout() {
     return (
         <>

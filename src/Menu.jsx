@@ -24,6 +24,11 @@ function Menu() {
                         Sobre
                         </a>
                     </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="/calcmetros">
+                        Calcular Metros
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
