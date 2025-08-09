@@ -9,7 +9,7 @@ function Banner() {
                         <img src="/public/dolar.jpg" className="d-block w-100" alt="dolar.jpg" />
                     </div>
                     <div className="carousel-item">
-                        <img src="/public/cifrao.jpg" className="d-block w-100" alt="cifrao.jpg" />
+                        <img src="/public/dolar1.jpg" className="d-block w-100" alt="dolar1.jpg" />
                     </div>
                     <div className="carousel-item">
                         <img src="/public/dinheiro.jpg" className="d-block w-100" alt="dinheiro.jpg" />
